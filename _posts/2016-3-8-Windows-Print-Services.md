@@ -11,9 +11,9 @@ Recently I've had the "pleasure" of troubleshooting Windows print services... Yo
 
 No fear! It's actually pretty easy to enable the log. It's just a wevtutil command:
 
-```
+`
 wevtutil sl Microsoft-Windows-PrintService/Debug /e:true /q:true
-```
+`
 
 * [wevtutil](https://technet.microsoft.com/en-us/library/cc732848.aspx): this is the name of the Windows Event Utility
 * sl: this is short for the command set-log
