@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: SCRoM
+name: SCRom
 
 # Short bio or description (displayed in the header)
-description: "Slightly Coherent Ramblings of Me"
+description: "Super Comitted Romero"
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars0.githubusercontent.com/u/30301021?s=400&u=c7488e50f7ae290421b381ce1441af728ceae440&v=4
@@ -23,28 +23,28 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: corbob
+  github: romero126
   instagram:
   linkedin:
   pinterest:
-  rss: anything # just type anything here for a working RSS icon
-  twitter: coryknox
+  rss: hahano # just type anything here for a working RSS icon
+  twitter: romero126
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
-  twitch: corbob
+  twitch: romero126
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: knoxy
+disqus: Romero
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-123733731-1
+google_analytics: 
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://knoxy.ca
+url: https://www.r126.us
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
