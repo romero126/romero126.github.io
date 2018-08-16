@@ -48,25 +48,26 @@ Day 2: Monday
     $Objects = Get-ADOBject -Filter * | ? DistinguishedName -match "OU=CorruptedOU,"
     $Objects | % { Move-ADObject $_.ObjectGuid -TargetPath "YourPathHere" }
 
-Day 3: Tuesday
-    Started creating ADUsers and Imaging Computers. It was pretty straight forward using powershell. Created a Script to build out User's from a CSV that helped us automate future users because I am certain we will have 20+ users to add in addition to what we already have going.
+Day 3: Tuesday  
+    Started creating ADUsers and Imaging Computers. It was pretty straight forward using powershell. Created a Script to build out User's from a CSV that helped us automate future users because I am certain we will have 20+ users to add in addition to what we already have going.  
 
-    Troubleshooting DNS
-        Something is totally wrong with our DNS we cant add roothints or Conditional forwarders to our domain. I spent the day off and on troubleshooting this issue. Powershell for some odd reason isnt helping. Stubzones work right now as a work around for nothing working, however repeated Zone Transfer requests from an Unknown DNS Server will probably get us locked down so its not a good long term option.
+    Troubleshooting DNS  
+    Something is totally wrong with our DNS we cant add roothints or Conditional forwarders to our domain. I spent the day off and on troubleshooting this issue. Powershell for some odd reason isnt helping. Stubzones work right now as a work around for nothing working, however repeated Zone Transfer requests from an Unknown DNS Server will probably get us locked down so its not a good long term option.  
 
-Day 4: Wednesday
-    Troubleshooting Network:
-        Yeah so our JR Network guy was having issues so I spent most of the day off and on trying to figure out one PEBKAK issue after another. I do have to hand it to him given that he knew nothing a few days ago He has gotten a lot more capable in a very short amount of time. Still want to strangle him though. 
-    Troubleshooting DNS:
-        Yup, still at it today. Struggling trying to figure out what happend to our DNS. Stub Zones but is still the wrong answer. Finally a breakthrough halfway through the day. I figured it out. Our DNS Server was initially configured as a ROOT DNS Server. So after Deleting the ROOT Zone we were finally back in Business. Unfortunatly for us we needed to grab the RootHints and forwarders from our Higher. Long story. It works now.
-    
-    Troubleshooting FileServer:
-        For some odd reason we cant hit our File Server from the Client Machines. It took a little bit of time, but NTP on the Domain Controllers and the End Clients were completely foobar. So I am going to spend the next Two Days fixing it. VMWare VSphere is terribly slow.
-
-    Troubleshooting Email Server:
-        I was talking with a Warrant Officer to confirm we were live and able to pass email traffic. I double checked our configs and hit send. It went to my drafts folder. What happened? 
-
-        The email server Transport Service wasnt running, and refused to turn on. Dependencies I missed after fixing most of the service after somebody decided that it was wise to rename the server to standard after it was already stood up. Finally got transport back up and email sent. I will check email trace logs in the morning to fix it
-    
-Day 5: Thursday
+Day 4: Wednesday  
+    Troubleshooting Network:  
+    Yeah so our JR Network guy was having issues so I spent most of the day off and on trying to figure out one PEBKAK issue after another. I do have to hand it to him given that he knew nothing a few days ago He has gotten a lot more capable in a very short amount of time. Still want to strangle him though.  
+      
+    Troubleshooting DNS:  
+    Yup, still at it today. Struggling trying to figure out what happend to our DNS. Stub Zones but is still the wrong answer. Finally a breakthrough halfway through the day. I figured it out. Our DNS Server was initially configured as a ROOT DNS Server. So after Deleting the ROOT Zone we were finally back in Business. Unfortunatly for us we needed to grab the RootHints and forwarders from our Higher. Long story. It works now.  
+      
+    Troubleshooting FileServer:  
+    For some odd reason we cant hit our File Server from the Client Machines. It took a little bit of time, but NTP on the Domain Controllers and the End Clients were completely foobar. So I am going to spend the next Two Days fixing it. VMWare VSphere is terribly slow.  
+      
+    Troubleshooting Email Server:  
+    I was talking with a Warrant Officer to confirm we were live and able to pass email traffic. I double checked our configs and hit send. It went to my drafts folder. What happened?  
+      
+    The email server Transport Service wasnt running, and refused to turn on. Dependencies I missed after fixing most of the service after somebody decided that it was wise to rename the server to standard after it was already stood up. Finally got transport back up and email sent. I will check email trace logs in the morning to fix it  
+      
+Day 5: Thursday  
     To Be Continued!!
