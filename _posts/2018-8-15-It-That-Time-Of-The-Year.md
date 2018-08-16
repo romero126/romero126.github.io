@@ -3,7 +3,7 @@ layout: post
 title: It's that Time of the year.
 comments: true
 ---
-##Murrica Week!
+Murrica Week!  
 I Alway's find it interesting every time I get to play Army how much that goes into getting our environment prepared for the field. Dispite how much we do in preparation moore's law seems to always strike. What can happen will happen.
 
 ### Stay Posted: I will try to update this every few days.
