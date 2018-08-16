@@ -12,12 +12,12 @@ I Alway's find it interesting every time I get to play Army how much that goes i
 __Stay Posted: I will try to update this every few days__.
 
 
-##What I do in the reserves:
+__What I do in the reserves__
 
 I am an automations NCO so I am in charge of all the server deployment, making all of the magic happens. I manage our Domain Controllers, Exchange, File Shares, SCCM Servers, Nessus, Group Policy, Network Equipment, and prefunking the magic for many other peices of Equipment/Software for Operational Success.
 
 
-_Prefunking the Magic Week_:
+__Prefunking the Magic Week__:
 
 ##Day 1: Sunday
 
