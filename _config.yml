@@ -6,7 +6,7 @@
 name: r126.us
 
 # Short bio or description (displayed in the header)
-description: "Struggles of a guy who works too hard."
+description: "Results of Me Engineering Redundant Operations."
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars1.githubusercontent.com/u/28855373?s=400&u=e8e251f51ab2314bef8710511b4f3776ebe09a9f&v=4
@@ -32,7 +32,7 @@ footer-links:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
-  twitch: romero126
+  twitch: # romero126
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
