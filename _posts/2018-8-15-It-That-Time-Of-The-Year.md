@@ -63,41 +63,6 @@ __Day 3: Tuesday__
 
 Started creating ADUsers and Imaging Computers. It was pretty straight forward using powershell. Created a Script to build out User's from a CSV that helped us automate future users because I am certain we will have 20+ users to add in addition to what we already have going.  
   
-__Adding Users__
-`function Add-MILUser {
-    param(
-        [Parameter(ValueFromPipeline, Mandatory)]
-        $UserAccountInfo,
-        [Parameter(Mandatory)]
-        [string]$OrganizationalUnit
-
-    )
-
-    $NewUser = @{
-        SamAccountName = $UserAccountInfo.SamAccountName
-        Givenname = $UserAccountInfo.Givenname
-        Surname = $UserAccountInfo.Surname
-        DisplayName = ("{0} {1},{2} {3} {4} {5}" -f $UserAccountInfo.Rank, $UserAccountInfo.Surname, $UserAccountInfo.Givenname, $UserAccountInfo.MiddleInitial, $UserAccountInfo.Department, $UserAccountInfo.Title)
-        Description = "User Account"
-        Department = $UserAccountInfo.Department
-        EmployeeID = $UserAccountInfo.UID
-        AccountPassword = '{0}' -f $UserAccountInfo.DefaultPassword | ConvertTo-SecureString -AsPlainText -Force
-        Passthru = $True
-        Enabled = $True
-    }
-
-    try {
-        if (Get-ADUser $UserAccountInfo.SamAccountName) {
-            write-Warning "UserAccount Already Exists"
-            return
-        }
-    } catch {}
-    New-ADUser @Param | Move-ADObject -TargetPath ($OrganizationalUnit ) #Do Stuff Here
-    Add-ADGroupMember -Identity (Get-ADGroup "{0}_{1}" -f $UserAccountInfo.UIC, $UserAccountInfo.Department) -Member $UserAccountInfo.SamAccountName
-    #Exchange Powershell Wasnt working So i didnt create the unit.
-    #Enable-MailBox -Identity $UserAccountInfo.SamAccountName
-}`
-
 
 __Troubleshooting DNS__
 
