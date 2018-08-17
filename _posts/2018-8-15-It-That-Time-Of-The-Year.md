@@ -37,7 +37,7 @@ __Our Tasks to Complete the First Week:__
 * Fix all of our "Servers"
 * Prepare 22 Systems to go on our domain.
 * Repair Active Directory
-* Establish DNS Connectivity to our Parent unit
+* Establish DNS Connectivity to our Parent Unit
 * Repair Exchange (No Access to Portal)
 * Repair File Server (Yes its broken)
 * Repair SCCM Server for Patching
@@ -88,5 +88,20 @@ I was talking with a Warrant Officer to confirm we were live and able to pass em
 The email server Transport Service wasnt running, and refused to turn on. Dependencies I missed after fixing most of the service after somebody decided that it was wise to rename the server to standard after it was already stood up. Finally got transport back up and email sent. I will check email trace logs in the morning to fix it  
   
 __Day 5: Thursday__
+
+Today I was coming into the office, I first took a look at verifying email passed smoothly between us and our Certifying Unit. Email failed. After taking a look at why I finally figured out our Default Gateway's were messed up and could not pass data outside of our network. I have 53+ Servers, Most of these servers will need to be changed.
+
+After I discovered this error, we had a surprise visit from one of our Field Service Rep's that we were no where ready for. So I had to go dig through a connex and find equipment for this guy to image to whatever baseline we need for this exercise. He was gone by the time I got back and would return later in the afternoon. Only to find out a 10 minute conversation with him would have given us enough information to accomilish most of what he was doing. The hardest part is loading the data files in the tool, which will be done sometime when we start standing up next week.
+
+I spent most of the day fixing Default Gateway and Time issues, running into several issues with just "Logging in" forcing me to break into the machines and reset their passwords.
+
+Turns out that there will be some serious brass coming through to inspect us sometime next week. Its probably because we are one of the first reserve unit's in the Military to have this much gear and capabilities.
+
+I gave my pens to the Junior Network Technician since they are cool and he tried atleast 3 times to steal them this week. Hes gotten better so he has earned his Romero's Pen Privilages... 
+
+After Work. 
+I tried to help Joel with his project doing code review helping him disect the tokenizer functions in Powershell Core, Along with Charlie which was pretty cool. But I was distracted mostly with a lot of the Army stuff's that have been thrown my way "WHILE" I was helping out. Apparently I am going to have to sync up with our Platoon Sargent and take over for him during this exercise. (I told him to kick rocks haha!) 
+
+__Day 6: Friday__
 
 To Be Continued!!
