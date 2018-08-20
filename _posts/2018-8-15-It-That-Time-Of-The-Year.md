@@ -105,4 +105,9 @@ I tried to help Joel with his project doing code review helping him disect the t
 
 __Day 6: Friday__
 
+Today I spent the day preparing for the weekend. Its almost exercise time so most of my work prefunking the magic is done. (Even though theres still a ton of things to do.) I wrote down a list of all the tasks that need to get accomplished and prepared documentation Moving Forward for us so when we stand up in the field there isnt much headscratching.
+
+Tommorow the fun begins as we start our training, The next time I get to touch Servers will be Sunday when we touch ground on our site.
+
 To Be Continued!!
+In the next Blog Post (Part Two!!)
