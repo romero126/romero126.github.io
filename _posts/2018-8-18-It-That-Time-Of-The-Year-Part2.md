@@ -20,4 +20,27 @@ We got close to fixing it after trying everything from using gloves plastic bags
 We setup our tent and went to chow. I got approved to go home for the night. So I am pretty stoked to sleep in my bed. 
 
 __Day 9: Monday__
-To Be Continued!!!
+Today we spent a lot of time trying to track down equipment get working. Our tent is finally up and we spent most of the day sorting out logistic issues with our generators and set up our IT Helpdesk Section. 
+
+We were able to position our Tent Generator and get it staked to the ground. Motivating our soldiers is tough in this heat but the sooner we get setup the sooner we can get Air Conditioning in our Tent and cool off and basic necessities. Like Lights, and Power to our Laptops. 
+
+After we completed setting up power in our tent. Next was to setup our Server Stacks, we have 6 stacks Consisting of 2 blade Servers a SAN and a UPS. So I took some time and taught one of our soldiers to set it up correctly. Our Main 10k Generator is still down so when it comes online we will be able to get things moving.
+
+Spent the night at the barracks playing spades with my soldiers, messing with my team member all night making the game more interesting. All in all it was pretty fun.
+
+__Day 10: Tuesday__
+Today I woke up sick, the air quality has been terrible here and every day I sleep at the barracks I wake up with a migrane. Today was worse, Like being hangover with an upset stomach. Theres alot of admin work to do today, and getting our security situation sorted was top priority. Basically its not our job, but we ended up creating an access roster, and memorandums in order to become accredited to operate.
+
+I barked some orders at our soldiers letting them know my expectations. Our work area our Command is working in needed to be finished, Network Cables, Switch Layout, Where I wanted power to be placed, and tried to manage them from afar. Management at a distance sucked however we got a warm and fuzzy from them at the end of the day.
+
+We spent most of our day begging, and scavanging for a critical peice of network infrastructure, a Fiber Cable long enough to connect our stacks to the internet. We hit up several units, places we never thought we would find it, and finally success we will have network tommorow.
+
+Surprise Requirements!!
+Sprung up on us at last moment was a requirement on equipment we don't actually have. So we were able to figure out a unit we can borrow from but have no man power to get things done.
+
+Went home tonight. Have to do Laundry, and feed my cat. Perks of being the section NCOIC and a home duty station exercise.
+
+__Day 11: Wednesday__
+To Be Continued!!
+
+Days until end of exercise 4.
