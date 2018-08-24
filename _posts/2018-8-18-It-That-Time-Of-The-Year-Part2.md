@@ -11,6 +11,7 @@ Directing Traffic is difficult, however somebody has to do it. Our unit Arrived 
 After work things got more interesting. One of our soldiers is in quarantine because he has bronchitus from his civilian job. and another one decided it was a good idea to go out drinking. About 1:40am the bay woke up to him vomiting in his sleep and did not wake up for a few minutes as we had to wake him up. The guy is in alot of trouble now and will recieve diciplinary action. <ugh> 
 
 __Day 8: Sunday__
+
 Today was a Fiasco one pain point after another. PT in the morning, and after that we are to load our equipment into the LMTV (Big Truck). We finally got the equipment loaded in the truck after one of our Soldiers couldnt figure out how to load and secure our equipment. I had to go in there and rearrange our hodgepodge of servers and equipment so it fit and could mount correctly.
 
 Finally we are ready to roll on out. Everyone is online except for my section. Which was waiting on a truck. The convoy was approved to roll out without us. So we watched them roll out only to find out one of their trucks was DeadLined due to an airbrake issue on the attached water buffalo trailer (the units water for the field). So myself and my best soldier went to go help out the supply NCO so we can get water in the field.
@@ -20,6 +21,7 @@ We got close to fixing it after trying everything from using gloves plastic bags
 We setup our tent and went to chow. I got approved to go home for the night. So I am pretty stoked to sleep in my bed. 
 
 __Day 9: Monday__
+
 Today we spent a lot of time trying to track down equipment get working. Our tent is finally up and we spent most of the day sorting out logistic issues with our generators and set up our IT Helpdesk Section. 
 
 We were able to position our Tent Generator and get it staked to the ground. Motivating our soldiers is tough in this heat but the sooner we get setup the sooner we can get Air Conditioning in our Tent and cool off and basic necessities. Like Lights, and Power to our Laptops. 
@@ -29,6 +31,7 @@ After we completed setting up power in our tent. Next was to setup our Server St
 Spent the night at the barracks playing spades with my soldiers, messing with my team member all night making the game more interesting. All in all it was pretty fun.
 
 __Day 10: Tuesday__
+
 Today I woke up sick, the air quality has been terrible here and every day I sleep at the barracks I wake up with a migrane. Today was worse, Like being hangover with an upset stomach. Theres alot of admin work to do today, and getting our security situation sorted was top priority. Basically its not our job, but we ended up creating an access roster, and memorandums in order to become accredited to operate.
 
 I barked some orders at our soldiers letting them know my expectations. Our work area our Command is working in needed to be finished, Network Cables, Switch Layout, Where I wanted power to be placed, and tried to manage them from afar. Management at a distance sucked however we got a warm and fuzzy from them at the end of the day.
@@ -41,6 +44,25 @@ Sprung up on us at last moment was a requirement on equipment we don't actually 
 Went home tonight. Have to do Laundry, and feed my cat. Perks of being the section NCOIC and a home duty station exercise.
 
 __Day 11: Wednesday__
-To Be Continued!!
 
-Days until end of exercise 4.
+Issues after issues today. Spent most of the day directing traffic and trying to get our network up. EIGRP isnt rebuilding our routes for some reason, and we are blocked by higher levels that are stopping us. Dispite tommorow our support for our network side is having a family day so most of our support will be out tommorow.
+
+__Day 12: Thursday__
+
+Road block after road block today. We had our Parent Evaluators come swing by trying to figure out when our unit will be ready for this exercise that is supposed to be kicking off on Monday/Tuesday. Fixed and repaired ongoing server issues and tracked down a ghost IP that was duplicating and bumping other machines off of the network. We also worked on trying to figure out why our Routing is all messed up. This has been an ongoing issue since early this week when we got the generators working. Turns out somebody from our Network Operations Center needs to swing by and make somee changes to our regional configurations so we can have better Network Connectivity.
+
+At night a few of our joes hung out and went for pizza. PT at 5am so nothing should be happening that is too crazy.
+
+Damn.. I spoke too soon, but this time I wont talk about it, since I dont know the soldier. he did end up waking half the barracks up at 11:30pm, and ruined about an hour or two of my night. Remember kids Alcohol and hard work dont mix unless you know how to drink responsibly.
+
+__Day 13: Friday__
+
+PT at 05:00AM and formation at 7am. This will be a pretty stress free day.
+
+Today I had a planned excursion to a doctors appointment. So I was out of the worksite for the day. Turns out we never really got anything done. Dispite our best efforts.
+
+Gonna hang out with the joes, since its the last night I am able to.
+
+__Day 14: Saturday__
+
+Last Day for me. I'll keep you posted.
