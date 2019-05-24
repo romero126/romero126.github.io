@@ -4,8 +4,6 @@ title: Using Refleciton to read items in DLL's Part 1
 comments: true
 ---
 
-# Using Refleciton to read items in DLL's Part 1
-
 1: Get Loaded Assemblies
 ========================
 
