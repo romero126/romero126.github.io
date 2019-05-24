@@ -11,9 +11,9 @@ In this example we will review how to view all of the modules loaded in an assem
 
 It looks so Simple.
 
-``` powershell
+`` powershell
 [System.AppDomain]::CurrentDomain.GetAssemblies()
-```
+``
 
 The Command returns a RuntimeAssembly Object
 
